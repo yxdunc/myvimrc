@@ -1,4 +1,4 @@
-# myvimrc featuring cannonical c++ class generator
+# myvimrc featuring canonical c++ class generator
 
 Copy the content into your .vimrc/.myvimrc and restart your vim windows.
 
