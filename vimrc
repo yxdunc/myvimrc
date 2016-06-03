@@ -21,6 +21,13 @@ set cursorline
 syntax on
 colorscheme desert
 
+"highlight search
+set hlsearch
+
+"replace space with tab
+command! -nargs=1 -range SuperRetab <line1>,<line2>s/\v%(^ *)@<= {<args>}/\t/g
+""use :'<,'>SuperRetab 2
+
 :let mapleader = "-"
 
 
