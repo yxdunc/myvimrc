@@ -28,6 +28,9 @@ set hlsearch
 command! -nargs=1 -range SuperRetab <line1>,<line2>s/\v%(^ *)@<= {<args>}/\t/g
 ""use :'<,'>SuperRetab 2
 
+"tab size
+:set tabstop=4
+
 :let mapleader = "-"
 
 
